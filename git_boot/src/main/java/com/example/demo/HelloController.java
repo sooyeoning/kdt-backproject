@@ -11,7 +11,7 @@ public class HelloController {
 	@RequestMapping("/helloboot")
 	public ModelAndView helloboot() {
 		ModelAndView mv = new ModelAndView();
-		mv.addObject("model", "스프링 부트를 시작합니다.");
+		mv.addObject("model", "스프링 부트를 시작합니다(깃허브).");
 		mv.setViewName("hello");
 		return mv;
 	}
